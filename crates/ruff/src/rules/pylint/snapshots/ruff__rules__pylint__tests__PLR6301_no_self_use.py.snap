@@ -33,7 +33,7 @@ no_self_use.py:55:25: PLR6301 Method `abstract_method` could be a function or st
 54 |     @override
 55 |     def abstract_method(self):
    |                         ^^^^ PLR6301
-56 |         print("concret method")
+56 |         print("concrete method")
    |
 
 

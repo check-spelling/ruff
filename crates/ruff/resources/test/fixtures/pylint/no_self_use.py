@@ -53,7 +53,7 @@ class Base(abc.ABC):
 class Sub(Base):
     @override
     def abstract_method(self):
-        print("concret method")
+        print("concrete method")
 
 
 class Prop:
