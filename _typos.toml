@@ -1,5 +1,5 @@
 [files]
-extend-exclude = ["resources", "snapshots"]
+extend-exclude = ["resources", "snapshots", ".github/actions/spelling/*"]
 
 [default.extend-words]
 hel = "hel"
