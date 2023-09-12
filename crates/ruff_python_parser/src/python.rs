@@ -1,5 +1,5 @@
 // auto-generated: "lalrpop 0.20.0"
-// sha3: 516ee93137b3322a578922c24eb95daee3078883fdfa0c097268e64b78fcc54f
+// sha3: db45657f6108e86bba3edae4f49b2555f0c0285bc42a2c23e17da4774c91557c
 use num_bigint::BigInt;
 use ruff_text_size::{Ranged, TextSize};
 use ruff_python_ast::{self as ast, IpyEscapeKind};
