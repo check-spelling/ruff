@@ -681,10 +681,10 @@ expression: "parse_suite(source, \"<test>\").unwrap()"
     ),
     TypeAlias(
         StmtTypeAlias {
-            range: 455..470,
+            range: 457..472,
             name: Name(
                 ExprName {
-                    range: 460..461,
+                    range: 462..463,
                     id: "X",
                     ctx: Store,
                 },
@@ -692,7 +692,7 @@ expression: "parse_suite(source, \"<test>\").unwrap()"
             type_params: None,
             value: Name(
                 ExprName {
-                    range: 467..470,
+                    range: 469..472,
                     id: "int",
                     ctx: Load,
                 },
@@ -701,10 +701,10 @@ expression: "parse_suite(source, \"<test>\").unwrap()"
     ),
     TypeAlias(
         StmtTypeAlias {
-            range: 471..486,
+            range: 473..488,
             name: Name(
                 ExprName {
-                    range: 476..477,
+                    range: 478..479,
                     id: "X",
                     ctx: Store,
                 },
@@ -712,7 +712,7 @@ expression: "parse_suite(source, \"<test>\").unwrap()"
             type_params: None,
             value: Name(
                 ExprName {
-                    range: 483..486,
+                    range: 485..488,
                     id: "int",
                     ctx: Load,
                 },
@@ -721,10 +721,10 @@ expression: "parse_suite(source, \"<test>\").unwrap()"
     ),
     TypeAlias(
         StmtTypeAlias {
-            range: 487..507,
+            range: 489..509,
             name: Name(
                 ExprName {
-                    range: 492..493,
+                    range: 494..495,
                     id: "X",
                     ctx: Store,
                 },
@@ -732,7 +732,7 @@ expression: "parse_suite(source, \"<test>\").unwrap()"
             type_params: None,
             value: Name(
                 ExprName {
-                    range: 502..505,
+                    range: 504..507,
                     id: "int",
                     ctx: Load,
                 },
@@ -741,17 +741,17 @@ expression: "parse_suite(source, \"<test>\").unwrap()"
     ),
     TypeAlias(
         StmtTypeAlias {
-            range: 508..527,
+            range: 510..529,
             name: Name(
                 ExprName {
-                    range: 519..520,
+                    range: 521..522,
                     id: "X",
                     ctx: Store,
                 },
             ),
             type_params: Some(
                 TypeParams {
-                    range: 520..523,
+                    range: 522..525,
                     type_params: [
                         TypeVar(
                             TypeParamTypeVar {
