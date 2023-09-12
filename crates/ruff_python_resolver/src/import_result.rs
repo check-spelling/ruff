@@ -54,11 +54,11 @@ pub(crate) struct ImportResult {
     /// The resolved file is a native library.
     pub(crate) is_native_lib: bool,
 
-    /// The resolved file is a hint hint (i.e., a `.pyi` file) from
+    /// The resolved file is a type hint (i.e., a `.pyi` file) from
     /// `typeshed` in the standard library.
     pub(crate) is_stdlib_typeshed_file: bool,
 
-    /// The resolved file is a hint hint (i.e., a `.pyi` file) from
+    /// The resolved file is a type hint (i.e., a `.pyi` file) from
     /// `typeshed` in third-party stubs.
     pub(crate) is_third_party_typeshed_file: bool,
 
