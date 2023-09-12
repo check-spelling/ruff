@@ -165,7 +165,7 @@ pub fn parse(source: &str, mode: Mode, source_path: &str) -> Result<ast::Mod, Pa
 
 /// Parse the given Python source code using the specified [`Mode`] and [`TextSize`].
 ///
-/// This function allows to specify the location of the the source code, other than
+/// This function allows to specify the location of the source code, other than
 /// that, it behaves exactly like [`parse`].
 ///
 /// # Example
