@@ -43,7 +43,7 @@ impl Violation for InvalidMockAccess {
         let InvalidMockAccess { reason } = self;
         match reason {
             Reason::UncalledMethod(name) => format!("Mock method should be called: `{name}`"),
-            Reason::NonExistentMethod(name) => format!("Non-existent mock method: `{name}`"),
+            Reason::NonExistentMethod(name) => format!("Nonexistent mock method: `{name}`"),
         }
     }
 }

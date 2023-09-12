@@ -1,7 +1,7 @@
 ---
 source: crates/ruff/src/rules/pygrep_hooks/mod.rs
 ---
-PGH005_0.py:2:8: PGH005 Non-existent mock method: `not_called`
+PGH005_0.py:2:8: PGH005 Nonexistent mock method: `not_called`
   |
 1 | # Errors
 2 | assert my_mock.not_called()
@@ -10,7 +10,7 @@ PGH005_0.py:2:8: PGH005 Non-existent mock method: `not_called`
 4 | assert my_mock.not_called
   |
 
-PGH005_0.py:3:8: PGH005 Non-existent mock method: `called_once_with`
+PGH005_0.py:3:8: PGH005 Nonexistent mock method: `called_once_with`
   |
 1 | # Errors
 2 | assert my_mock.not_called()
@@ -20,7 +20,7 @@ PGH005_0.py:3:8: PGH005 Non-existent mock method: `called_once_with`
 5 | assert my_mock.called_once_with
   |
 
-PGH005_0.py:4:8: PGH005 Non-existent mock method: `not_called`
+PGH005_0.py:4:8: PGH005 Nonexistent mock method: `not_called`
   |
 2 | assert my_mock.not_called()
 3 | assert my_mock.called_once_with()
@@ -30,7 +30,7 @@ PGH005_0.py:4:8: PGH005 Non-existent mock method: `not_called`
 6 | my_mock.assert_not_called
   |
 
-PGH005_0.py:5:8: PGH005 Non-existent mock method: `called_once_with`
+PGH005_0.py:5:8: PGH005 Nonexistent mock method: `called_once_with`
   |
 3 | assert my_mock.called_once_with()
 4 | assert my_mock.not_called
