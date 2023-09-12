@@ -563,7 +563,7 @@ impl<'stmt> BasicBlocksBuilder<'stmt> {
                 }
                 Stmt::Match(StmtMatch { subject, cases, .. }) => {
                     let next_after_block = self.maybe_next_block_index(after, || {
-                        // We don't need need a next block if all cases don't need a
+                        // We don't need a next block if all cases don't need a
                         // next block, i.e. if no cases need a next block, and we
                         // have a wildcard case (to ensure one of the block is
                         // always taken).
