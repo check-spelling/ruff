@@ -661,10 +661,10 @@ expression: "parse_suite(source, \"<test>\").unwrap()"
     ),
     TypeAlias(
         StmtTypeAlias {
-            range: 439..454,
+            range: 441..456,
             name: Name(
                 ExprName {
-                    range: 447..448,
+                    range: 449..450,
                     id: "X",
                     ctx: Store,
                 },
@@ -672,7 +672,7 @@ expression: "parse_suite(source, \"<test>\").unwrap()"
             type_params: None,
             value: Name(
                 ExprName {
-                    range: 451..454,
+                    range: 453..456,
                     id: "int",
                     ctx: Load,
                 },
@@ -813,24 +813,24 @@ expression: "parse_suite(source, \"<test>\").unwrap()"
     ),
     TypeAlias(
         StmtTypeAlias {
-            range: 549..568,
+            range: 551..570,
             name: Name(
                 ExprName {
-                    range: 554..555,
+                    range: 556..557,
                     id: "X",
                     ctx: Store,
                 },
             ),
             type_params: Some(
                 TypeParams {
-                    range: 555..558,
+                    range: 557..560,
                     type_params: [
                         TypeVar(
                             TypeParamTypeVar {
-                                range: 556..557,
+                                range: 558..559,
                                 name: Identifier {
                                     id: "T",
-                                    range: 556..557,
+                                    range: 558..559,
                                 },
                                 bound: None,
                             },
@@ -840,7 +840,7 @@ expression: "parse_suite(source, \"<test>\").unwrap()"
             ),
             value: Name(
                 ExprName {
-                    range: 567..568,
+                    range: 569..570,
                     id: "T",
                     ctx: Load,
                 },
