@@ -1941,20 +1941,22 @@ mod tests {
 
         assert_eq!(
             max_empty_lines(
-                "# trailing comment\n\n# own line comment\n\n# an other own line comment"
+                "# trailing comment\n\n# own line comment\n\n# another own line comment"
             ),
             1
         );
 
         assert_eq!(
             max_empty_lines(
-                "# trailing comment\n\n# own line comment\n\n# an other own line comment\n# block"
+                "# trailing comment\n\n# own line comment\n\n# another own line comment\n# block"
             ),
             1
         );
 
         assert_eq!(
-            max_empty_lines("# trailing comment\n\n# own line comment\n\n\n# an other own line comment\n# block"),
+            max_empty_lines(
+                "# trailing comment\n\n# own line comment\n\n\n# another own line comment\n# block"
+            ),
             2
         );
 
