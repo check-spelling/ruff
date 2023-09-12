@@ -311,8 +311,8 @@ in `placement.rs`, which this section is about.
 ]
 ```
 
-Here, the comment is dangling because it is preceded by `[`, which is a non-trivia token but not a
-node, and  followed by `]`, which is also a non-trivia token but not a node. In the `FormatExprList`
+Here, the comment is dangling because it is preceded by `[`, which is a non-trivial token but not a
+node, and  followed by `]`, which is also a non-trivial token but not a node. In the `FormatExprList`
 implementation, we have to call `dangling_comments` manually and stub out the
 `fmt_dangling_comments` default from `FormatNodeRule`.
 
