@@ -30,7 +30,7 @@ a =   10
 # fmt: off
     # not formatted
 # fmt: on
-    # formattd
+    # formatted
 # fmt: off
 
     # not formatted

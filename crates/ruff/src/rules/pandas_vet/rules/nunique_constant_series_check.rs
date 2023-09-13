@@ -84,7 +84,7 @@ pub(crate) fn nunique_constant_series_check(
         return;
     }
 
-    // Check if call is `.nuniuqe()`.
+    // Check if call is `.nunique()`.
     let Expr::Call(ast::ExprCall { func, .. }) = left else {
         return;
     };

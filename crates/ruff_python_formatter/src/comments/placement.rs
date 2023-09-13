@@ -870,7 +870,7 @@ fn handle_trailing_binary_expression_left_or_operator_comment<'a>(
 ///     pass
 /// ```
 ///
-/// Which is not what we want. The work around is to make the `# This should be stick to the statement above`
+/// Which is not what we want. The workaround is to make the `# This should be stick to the statement above`
 /// a trailing comment of the previous statement.
 fn handle_module_level_own_line_comment_before_class_or_function_comment<'a>(
     comment: DecoratedComment<'a>,
@@ -1941,20 +1941,22 @@ mod tests {
 
         assert_eq!(
             max_empty_lines(
-                "# trailing comment\n\n# own line comment\n\n# an other own line comment"
+                "# trailing comment\n\n# own line comment\n\n# another own line comment"
             ),
             1
         );
 
         assert_eq!(
             max_empty_lines(
-                "# trailing comment\n\n# own line comment\n\n# an other own line comment\n# block"
+                "# trailing comment\n\n# own line comment\n\n# another own line comment\n# block"
             ),
             1
         );
 
         assert_eq!(
-            max_empty_lines("# trailing comment\n\n# own line comment\n\n\n# an other own line comment\n# block"),
+            max_empty_lines(
+                "# trailing comment\n\n# own line comment\n\n\n# another own line comment\n# block"
+            ),
             2
         );
 

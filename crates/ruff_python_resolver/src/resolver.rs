@@ -393,11 +393,11 @@ fn resolve_best_absolute_import<Host: host::Host>(
     if allow_pyi && !module_descriptor.name_parts.is_empty() {
         // Check for a stdlib typeshed file.
         debug!("Looking for typeshed stdlib path: {}", import_name);
-        if let Some(mut typeshed_stdilib_import) =
+        if let Some(mut typeshed_stdlib_import) =
             find_typeshed_path(module_descriptor, true, config, host)
         {
-            typeshed_stdilib_import.is_stdlib_typeshed_file = true;
-            return Some(typeshed_stdilib_import);
+            typeshed_stdlib_import.is_stdlib_typeshed_file = true;
+            return Some(typeshed_stdlib_import);
         }
 
         // Check for a third-party typeshed file.

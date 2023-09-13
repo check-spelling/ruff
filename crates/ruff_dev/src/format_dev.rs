@@ -133,7 +133,7 @@ impl Statistics {
         }
     }
 
-    /// We currently prefer the the similarity index, but i'd like to keep this around
+    /// We currently prefer the similarity index, but i'd like to keep this around
     #[allow(clippy::cast_precision_loss, unused)]
     pub(crate) fn jaccard_index(&self) -> f32 {
         self.intersection as f32 / (self.black_input + self.ruff_output + self.intersection) as f32
@@ -290,7 +290,7 @@ fn setup_logging(log_level_args: &LogLevelArgs, log_file: Option<&Path>) -> io::
         // Default without the spinner
         ProgressStyle::with_template("{span_child_prefix} {span_name}{{{span_fields}}}").unwrap(),
     );
-    let indicitif_compatible_writer_layer = tracing_subscriber::fmt::layer()
+    let indicatif_compatible_writer_layer = tracing_subscriber::fmt::layer()
         .with_writer(indicatif_layer.get_stderr_writer())
         .with_target(false);
     let log_layer = log_file.map(File::create).transpose()?.map(|log_file| {
@@ -300,7 +300,7 @@ fn setup_logging(log_level_args: &LogLevelArgs, log_file: Option<&Path>) -> io::
     });
     tracing_subscriber::registry()
         .with(filter_layer)
-        .with(indicitif_compatible_writer_layer)
+        .with(indicatif_compatible_writer_layer)
         .with(indicatif_layer)
         .with(log_layer)
         .init();

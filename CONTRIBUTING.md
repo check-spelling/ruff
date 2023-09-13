@@ -237,7 +237,7 @@ Once you've completed the code for the rule itself, you can define tests with th
     you activate it by adding `--select ${rule_code}` to the command.
 
 1. Add the test to the relevant `crates/ruff/src/rules/[linter]/mod.rs` file. If you're contributing
-    a rule to a pre-existing set, you should be able to find a similar example to pattern-match
+    a rule to a preexisting set, you should be able to find a similar example to pattern-match
     against. If you're adding a new linter, you'll need to create a new `mod.rs` file (see,
     e.g., `crates/ruff/src/rules/flake8_bugbear/mod.rs`)
 
