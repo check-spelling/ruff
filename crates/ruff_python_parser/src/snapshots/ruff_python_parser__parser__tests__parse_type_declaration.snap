@@ -755,10 +755,10 @@ expression: "parse_suite(source, \"<test>\").unwrap()"
                     type_params: [
                         TypeVar(
                             TypeParamTypeVar {
-                                range: 521..522,
+                                range: 523..524,
                                 name: Identifier {
                                     id: "T",
-                                    range: 521..522,
+                                    range: 523..524,
                                 },
                                 bound: None,
                             },
@@ -768,7 +768,7 @@ expression: "parse_suite(source, \"<test>\").unwrap()"
             ),
             value: Name(
                 ExprName {
-                    range: 526..527,
+                    range: 528..529,
                     id: "T",
                     ctx: Load,
                 },
@@ -777,24 +777,24 @@ expression: "parse_suite(source, \"<test>\").unwrap()"
     ),
     TypeAlias(
         StmtTypeAlias {
-            range: 528..548,
+            range: 530..550,
             name: Name(
                 ExprName {
-                    range: 533..534,
+                    range: 535..536,
                     id: "X",
                     ctx: Store,
                 },
             ),
             type_params: Some(
                 TypeParams {
-                    range: 541..544,
+                    range: 543..546,
                     type_params: [
                         TypeVar(
                             TypeParamTypeVar {
-                                range: 542..543,
+                                range: 544..545,
                                 name: Identifier {
                                     id: "T",
-                                    range: 542..543,
+                                    range: 544..545,
                                 },
                                 bound: None,
                             },
@@ -804,7 +804,7 @@ expression: "parse_suite(source, \"<test>\").unwrap()"
             ),
             value: Name(
                 ExprName {
-                    range: 547..548,
+                    range: 549..550,
                     id: "T",
                     ctx: Load,
                 },
